@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.items {
+    margin: 5px 5px;
+    display: flex;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.items .item1 {
+    flex-basis: 85%;
+}
+
+.items .item2 {
+    flex-grow: 1;
+}
+
+.items .item3 {
+    flex-grow: 1;
+}

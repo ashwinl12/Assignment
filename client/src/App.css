@@ -1,0 +1,56 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 33%);
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+.title {
+  height: auto;
+  width: fit-content;
+  margin: 10px auto 0px;
+  background-color: #FFFFF0;
+  font-size: 50px;
+  border-radius: 25px;
+  padding: 5px;
+  border: 2px solid purple;
+}
+
+.box {
+  border: 2px solid purple;
+  width: 40%;
+  margin: 0 auto;
+  height: fit-content;
+  padding: 20px;
+  background-color: #FFFFF0;
+  border-radius: 25px;
+}
+
+.addTask {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.addTask input {
+  flex-grow: 3;
+  margin: 0 5px;
+  padding: 5px 15px;
+  font-size: 18px;
+}
+
+.addTask FaPlusCircle {
+  flex-grow: 1;
+}
+
+
